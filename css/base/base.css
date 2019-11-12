@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', 'Roboto Slab', 'Raleway', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+p {
+    color: var(--color-black);
+}
+
+strong {
+    color: var(--color-blue);
+}

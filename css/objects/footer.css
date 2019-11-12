@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 100px 0 0 360px;
+    background: var(--color-background-footer);
+    color: var(--color-black-ligth);
+}
+
+strong {
+    font-weight: normal;
+}
+
+@media (max-width: 828px) {
+    footer {
+        text-align: center;
+        padding: 20px;
+        height: 100%;
+        margin: 100px 0 0;
+        min-width: 360px;
+    }
+}
